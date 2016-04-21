@@ -2,7 +2,7 @@ var getJoke = require('./index')
 
 var joke = getJoke()
 
-if (typeof joke === 'string') {
+if (typeof joke[0] === 'string') {
   console.log('Joke is typeof "string"')
   process.exit(0)
 }

@@ -1,3 +1,5 @@
 var getJoke = require('knock-knock-jokes')
 
-module.exports = getJoke
+module.exports = function () {
+  return getJoke().split('\n')
+}
