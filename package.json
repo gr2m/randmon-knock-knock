@@ -1,0 +1,22 @@
+{
+  "name": "randmon-knock-knock",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gr2m/randmon-knock-knock.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
+  },
+  "dependencies": {
+    "knock-knock-jokes": "^1.7.0"
+  }
+}
